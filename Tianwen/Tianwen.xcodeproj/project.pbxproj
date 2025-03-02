@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F500870790F07879400FFD7B /* Pods_TianWen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC22E48550E3F7330627BE9 /* Pods_TianWen.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22713C482D6AB53500DFE952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22713C292D6AB53400DFE952 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22713C302D6AB53400DFE952;
+			remoteInfo = TianWen;
+		};
+		22713C522D6AB53500DFE952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22713C292D6AB53400DFE952 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22713C302D6AB53400DFE952;
+			remoteInfo = TianWen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22713C312D6AB53400DFE952 /* TianWen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TianWen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22713C472D6AB53500DFE952 /* TianWenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TianWenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22713C512D6AB53500DFE952 /* TianWenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TianWenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40819DC93DC07A1DD31D86D0 /* Pods-TianWen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TianWen.debug.xcconfig"; path = "Target Support Files/Pods-TianWen/Pods-TianWen.debug.xcconfig"; sourceTree = "<group>"; };
+		ACC22E48550E3F7330627BE9 /* Pods_TianWen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TianWen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D749DD6E2CF36B8DF6C499D5 /* Pods-TianWen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TianWen.release.xcconfig"; path = "Target Support Files/Pods-TianWen/Pods-TianWen.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		22713C592D6AB53500DFE952 /* Exceptions for "TianWen" folder in "TianWen" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 22713C302D6AB53400DFE952 /* TianWen */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		22713C332D6AB53400DFE952 /* TianWen */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				22713C592D6AB53500DFE952 /* Exceptions for "TianWen" folder in "TianWen" target */,
+			);
+			path = TianWen;
+			sourceTree = "<group>";
+		};
+		22713C4A2D6AB53500DFE952 /* TianWenTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TianWenTests;
+			sourceTree = "<group>";
+		};
+		22713C542D6AB53500DFE952 /* TianWenUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TianWenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22713C2E2D6AB53400DFE952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F500870790F07879400FFD7B /* Pods_TianWen.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22713C442D6AB53500DFE952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22713C4E2D6AB53500DFE952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22713C282D6AB53400DFE952 = {
+			isa = PBXGroup;
+			children = (
+				22713C332D6AB53400DFE952 /* TianWen */,
+				22713C4A2D6AB53500DFE952 /* TianWenTests */,
+				22713C542D6AB53500DFE952 /* TianWenUITests */,
+				22713C322D6AB53400DFE952 /* Products */,
+				B7E1E7584D47E58344E6D7FD /* Pods */,
+				30FB2C1C0639CFAB559469B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22713C322D6AB53400DFE952 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22713C312D6AB53400DFE952 /* TianWen.app */,
+				22713C472D6AB53500DFE952 /* TianWenTests.xctest */,
+				22713C512D6AB53500DFE952 /* TianWenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30FB2C1C0639CFAB559469B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACC22E48550E3F7330627BE9 /* Pods_TianWen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7E1E7584D47E58344E6D7FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40819DC93DC07A1DD31D86D0 /* Pods-TianWen.debug.xcconfig */,
+				D749DD6E2CF36B8DF6C499D5 /* Pods-TianWen.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22713C302D6AB53400DFE952 /* TianWen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22713C5A2D6AB53500DFE952 /* Build configuration list for PBXNativeTarget "TianWen" */;
+			buildPhases = (
+				3B6CDC8854CA44022FD01AC2 /* [CP] Check Pods Manifest.lock */,
+				22713C2D2D6AB53400DFE952 /* Sources */,
+				22713C2E2D6AB53400DFE952 /* Frameworks */,
+				22713C2F2D6AB53400DFE952 /* Resources */,
+				511AAFE8A5B4823CEF6C7E69 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				22713C332D6AB53400DFE952 /* TianWen */,
+			);
+			name = TianWen;
+			productName = TianWen;
+			productReference = 22713C312D6AB53400DFE952 /* TianWen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22713C462D6AB53500DFE952 /* TianWenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22713C5F2D6AB53500DFE952 /* Build configuration list for PBXNativeTarget "TianWenTests" */;
+			buildPhases = (
+				22713C432D6AB53500DFE952 /* Sources */,
+				22713C442D6AB53500DFE952 /* Frameworks */,
+				22713C452D6AB53500DFE952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22713C492D6AB53500DFE952 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				22713C4A2D6AB53500DFE952 /* TianWenTests */,
+			);
+			name = TianWenTests;
+			productName = TianWenTests;
+			productReference = 22713C472D6AB53500DFE952 /* TianWenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22713C502D6AB53500DFE952 /* TianWenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22713C622D6AB53500DFE952 /* Build configuration list for PBXNativeTarget "TianWenUITests" */;
+			buildPhases = (
+				22713C4D2D6AB53500DFE952 /* Sources */,
+				22713C4E2D6AB53500DFE952 /* Frameworks */,
+				22713C4F2D6AB53500DFE952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22713C532D6AB53500DFE952 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				22713C542D6AB53500DFE952 /* TianWenUITests */,
+			);
+			name = TianWenUITests;
+			productName = TianWenUITests;
+			productReference = 22713C512D6AB53500DFE952 /* TianWenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22713C292D6AB53400DFE952 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					22713C302D6AB53400DFE952 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					22713C462D6AB53500DFE952 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 22713C302D6AB53400DFE952;
+					};
+					22713C502D6AB53500DFE952 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 22713C302D6AB53400DFE952;
+					};
+				};
+			};
+			buildConfigurationList = 22713C2C2D6AB53400DFE952 /* Build configuration list for PBXProject "TianWen" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22713C282D6AB53400DFE952;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 22713C322D6AB53400DFE952 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22713C302D6AB53400DFE952 /* TianWen */,
+				22713C462D6AB53500DFE952 /* TianWenTests */,
+				22713C502D6AB53500DFE952 /* TianWenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22713C2F2D6AB53400DFE952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22713C452D6AB53500DFE952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22713C4F2D6AB53500DFE952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B6CDC8854CA44022FD01AC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TianWen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		511AAFE8A5B4823CEF6C7E69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TianWen/Pods-TianWen-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TianWen/Pods-TianWen-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TianWen/Pods-TianWen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22713C2D2D6AB53400DFE952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22713C432D6AB53500DFE952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22713C4D2D6AB53500DFE952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22713C492D6AB53500DFE952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22713C302D6AB53400DFE952 /* TianWen */;
+			targetProxy = 22713C482D6AB53500DFE952 /* PBXContainerItemProxy */;
+		};
+		22713C532D6AB53500DFE952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22713C302D6AB53400DFE952 /* TianWen */;
+			targetProxy = 22713C522D6AB53500DFE952 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22713C5B2D6AB53500DFE952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40819DC93DC07A1DD31D86D0 /* Pods-TianWen.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7FPUQV8RGB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TianWen/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.TianWen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22713C5C2D6AB53500DFE952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D749DD6E2CF36B8DF6C499D5 /* Pods-TianWen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7FPUQV8RGB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TianWen/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.TianWen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22713C5D2D6AB53500DFE952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22713C5E2D6AB53500DFE952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22713C602D6AB53500DFE952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7FPUQV8RGB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.TianWenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TianWen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TianWen";
+			};
+			name = Debug;
+		};
+		22713C612D6AB53500DFE952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7FPUQV8RGB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.TianWenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TianWen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TianWen";
+			};
+			name = Release;
+		};
+		22713C632D6AB53500DFE952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7FPUQV8RGB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.TianWenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TianWen;
+			};
+			name = Debug;
+		};
+		22713C642D6AB53500DFE952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7FPUQV8RGB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.TianWenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TianWen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22713C2C2D6AB53400DFE952 /* Build configuration list for PBXProject "TianWen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22713C5D2D6AB53500DFE952 /* Debug */,
+				22713C5E2D6AB53500DFE952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22713C5A2D6AB53500DFE952 /* Build configuration list for PBXNativeTarget "TianWen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22713C5B2D6AB53500DFE952 /* Debug */,
+				22713C5C2D6AB53500DFE952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22713C5F2D6AB53500DFE952 /* Build configuration list for PBXNativeTarget "TianWenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22713C602D6AB53500DFE952 /* Debug */,
+				22713C612D6AB53500DFE952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22713C622D6AB53500DFE952 /* Build configuration list for PBXNativeTarget "TianWenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22713C632D6AB53500DFE952 /* Debug */,
+				22713C642D6AB53500DFE952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22713C292D6AB53400DFE952 /* Project object */;
+}
