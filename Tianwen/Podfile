@@ -11,4 +11,6 @@ target 'TianWen' do
   # Pods for TianWen
   pod 'FMDB'
 
+  pod 'SwiftyJSON', '~> 5.0'
+
 end
