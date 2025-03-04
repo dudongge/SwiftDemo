@@ -7,6 +7,7 @@
 import UIKit
 import Alamofire
 import SwiftyJSON
+import SnapKit
 
 
 struct Product: Codable {
@@ -19,33 +20,15 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "首页" // 导航栏标题
-        view.backgroundColor = .white
-        
-        
-        // 获取闪屏列表
-//        TestSeviceAPI.shared.listFlash { result in
-//            switch result {
-//            case .success(let json):
-//                let 
-//                print("获取闪屏列表成功：\(json)")
-//            case .failure(let error):
-//                print("获取闪屏列表失败：\(error)")
-//            }
-//        }
-        
-        
-//        TestSeviceAPI.shared.listFlash { result in
-//            switch result {
-//            case .success(let json):
-//                let
-//                print("获取闪屏列表成功：\(json)")
-//            case .failure(let error):
-//                print("获取闪屏列表失败：\(error)")
-//            }
-//        }
+        view.backgroundColor = .systemBackground
+        let label = UILabel()
+        view.addSubview(label)
+        label.snp.makeConstraints { make in
+            make.center.equalTo(view)
+        }
         
         // 在视图控制器中使用
-        TestSeviceAPI.shared.listFlash { result in
+        TestSeviceAPI.shared.shiciList { result in
             switch result {
             case .success(let response):
                 let poetry = response.data
@@ -53,6 +36,7 @@ class HomeViewController: UIViewController {
                 print("内容：\(poetry.content)")
                 print("出处：\(poetry.origin)")
                 print("分类：\(poetry.category)")
+                label.text = "网络请求回来的数据： \(poetry.content)"
             case .failure(let error):
                 print("获取失败：\(error)")
             }
@@ -66,7 +50,6 @@ class HomeViewController: UIViewController {
             action: #selector(goToNext))
         
     }
-    
     
     @objc func goToNext() {
         let nextVC = SettingViewController()

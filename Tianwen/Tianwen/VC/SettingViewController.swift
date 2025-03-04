@@ -127,7 +127,7 @@ class SettingViewController: UIViewController {
     }
     
     @objc func goToNext() {
-        let nextVC = ViewController()
+        let nextVC = HomeViewController()
         navigationController?.pushViewController(nextVC, animated: true)
     }
 }

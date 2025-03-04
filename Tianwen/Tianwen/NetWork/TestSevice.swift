@@ -34,32 +34,21 @@ class TestSeviceAPI {
             "ts": String(Int(Date().timeIntervalSince1970))
         ]
     }
-    // 请求闪屏列表
-    func listFlash(completion: @escaping (Result<JSON, NetworkError>) -> Void) {
+    // 请求诗词列表
+    func shiciList(completion: @escaping (Result<BaseResponse<PoetryResponse>, NetworkError>) -> Void) {
         let endpoint = "/shici"
-        NetworkManager.shared.requestJSON(
+        let parameters: Parameters = [
+            "type": "shuqing",
+            "token": "LwExDtUWhF3rH5ib"
+        ]
+        
+        NetworkManager.shared.request(
             endpoint: endpoint,
             method: .post,
-            parameters: ["type":"shuqing","token":"LwExDtUWhF3rH5ib"],
+            parameters: parameters,
             completion: completion
         )
     }
-    
-    // 请求诗词列表
-        func listFlash(completion: @escaping (Result<BaseResponse<PoetryResponse>, NetworkError>) -> Void) {
-            let endpoint = "/shici"
-            let parameters: Parameters = [
-                "type": "shuqing",
-                "token": "LwExDtUWhF3rH5ib"
-            ]
-            
-            NetworkManager.shared.request(
-                endpoint: endpoint,
-                method: .post,
-                parameters: parameters,
-                completion: completion
-            )
-        }
 }
 
 // 通用响应模型
