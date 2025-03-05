@@ -22,14 +22,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(windowScene: windowScene)
         window?.frame = windowScene.coordinateSpace.bounds
         // 创建标签栏控制器
-        let tabBarController = UITabBarController()
+        let tabBarController = TabBarController()
         // 创建多个视图控制器并嵌入导航控制器
         let homeVC = UINavigationController(rootViewController: HomeViewController())
         let settingsVC = UINavigationController(rootViewController: SettingViewController())
-        //首页
-        homeVC.tabBarItem = UITabBarItem(title: "首页", image: UIImage(systemName: "house"), tag: 0)
-        //设置
-        settingsVC.tabBarItem = UITabBarItem(title: "设置", image: UIImage(systemName: "gear"), tag: 1)
         // 将视图控制器添加到标签栏
         tabBarController.viewControllers = [homeVC, settingsVC]
         tabBarController.tabBar.backgroundColor = .lightGray
