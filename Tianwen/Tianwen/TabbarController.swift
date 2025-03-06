@@ -43,5 +43,18 @@ class TabBarController: UITabBarController {
             tabBar.scrollEdgeAppearance = appearance
             tabBar.standardAppearance = appearance
         }
+        
+        delegate = self
+    }
+}
+
+// 扩展处理选中状态变化
+extension TabBarController: UITabBarControllerDelegate {
+    func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
+        // 根据选中的索引动态改变文字
+        let titles = ["首页精选", "发现更多", "我的收藏", "个人中心"]
+        if let item = viewController.tabBarItem {
+            item.title = titles[selectedIndex]
+        }
     }
 }
