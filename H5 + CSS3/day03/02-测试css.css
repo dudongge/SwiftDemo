@@ -1,0 +1,14 @@
+/* 这个文件放css代码 */
+/* 选择器 空格 */
+
+p {
+    /* color: red; */
+
+    .red {
+        color: green;
+    }
+}
+
+/* div {
+    color: blue;
+} */
