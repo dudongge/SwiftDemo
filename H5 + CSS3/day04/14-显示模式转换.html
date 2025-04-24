@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <met a charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>显示模式</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            /* display: inline-block; */
+            /* display: inline; */
+
+        }
+
+        .div1 {
+            background-color: red;
+        }
+
+        .div2 {
+            background-color: pink;
+        }
+
+        /* 行内标签添加宽高不生效 */
+        span {
+            width: 100px;
+            height: 100px;
+            display: block;
+        }
+
+        .span1 {
+            background-color: red;
+        }
+
+        .span2 {
+            background-color: pink;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+ 
+    </style>
+</head>
+<body>
+    <!-- 块元素 --> 
+    <div class="div1">div标签1</div>
+    <div class="div2">div标签2</div>
+    <br>
+    <!-- 行内元素 -->
+     <span class="span1">span标签1</span>
+     <span class="span2">span标签2</span>
+    <!-- 行内块元素 -->
+     <img src="../imgSource/cat_small.png" alt="">
+     <img src="../imgSource/cat_small.png" alt="">
+</body>
+</html>
