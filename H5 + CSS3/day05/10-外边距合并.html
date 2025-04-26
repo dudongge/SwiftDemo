@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>外边距合并</title>
+    <style>
+        .one {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            margin-bottom: 20px;
+        }
+        /* 两个盒子在垂直方向上 margin取较大者 */
+        .two {
+            width: 100px;
+            height: 100px;
+            background-color: brown;
+            /* margin-top: 50px; */
+            margin-top: 80px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="one">one</div>
+    <div class="two"> two</div>
+</body>
+</html>

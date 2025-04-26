@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>盒子塌陷</title>
+    <!-- 解决办法
+     1 取消子级margin 父级设置padding
+     2 父级设置overflow：hidden
+     3 父级设置 border-top
+    -->
+    <style>
+       .father {
+        width: 200px;
+        height: 200px;
+        background-color: pink;
+        /* overflow: hidden; */
+        padding-top: 20px;
+       }
+
+       .son {
+        width: 100px;
+        height: 100px;
+        background-color: gray;
+        /* margin-top: 30px; */
+       }
+
+       span {
+        margin: 50px;
+        padding: 20px;
+        line-height: 100px;
+       }
+    </style>
+</head>
+<body>
+    <div class="father"> 
+        <div class="son"> son</div>
+    </div>
+
+    <span> span 标签</span>
+    <span> span 标签</span>
+</body>
+</html>

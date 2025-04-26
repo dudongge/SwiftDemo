@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>侧轴对齐方式</title>
+    <style>
+        /* 弹性容器 */
+        .box {
+            /* 弹性盒子在侧轴方向上没有尺寸 才能拉伸 */
+            display: flex;
+            /* align-items: stretch; */
+            /* align-items: center; */
+            /* align-items: start; */
+           /* align-items: end; */
+            height: 300px;
+            border: 1px solid #000;
+        }
+
+        /* 弹性盒子  沿着主轴方向排列*/
+        .box div {
+            /* float: left; */
+            /* margin: 50px; */
+            width: 200px;
+            height: 100px;
+            background-color: pink;
+        }
+       
+        .box div:nth-child(2) {
+            align-self: center;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+</body>
+
+</html>

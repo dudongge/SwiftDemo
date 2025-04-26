@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>综合案例</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .box {
+            margin: 50px auto;
+            width: 1200px;
+            height: 418px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+
+        .box ul {
+            display: flex;
+            /* 弹性盒子换行 */
+            flex-wrap: wrap;
+            /* 调整主轴对齐方式 */
+            justify-content: space-between;
+            /* 调整行对齐方式 */
+            align-content: space-between;
+            padding: 90px 40px 90px 60px;
+            height: 418px;
+        }
+
+        .box li {
+            display: flex;
+            width: 500px;
+            height: 88px;
+            background-color: pink;
+      
+        }
+
+        .box .pic {
+            margin-right: 15px;
+        } 
+         .box .pic .img {
+            width: 88px;
+            height: 88px;
+        }
+        /* .box text {
+            margin-top: 15px;
+        } */
+        .box .text h4 {
+            line-height: 50px;
+            font-size: 20px;
+            font-weight: 400;
+            color: #333;
+        }
+
+        .box .text p {
+            font-size: 14px;
+            color: #666;
+        }
+         
+    </style>
+</head>
+<body>
+    <div class="box">
+        <ul>
+            <li>
+                <div class="pic">
+                    <img src="../imgSource/cat_small.png" alt="" class="img">
+                </div>
+                <div>
+                    <div class="text"> 
+                        <h4>ffff</h4>
+                        <p>一件爱你发给谁各个个人激光器干哈</p>
+                    </div>
+                </div>
+            </li>
+            <li>2/li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+    </div>
+</body>
+</html>

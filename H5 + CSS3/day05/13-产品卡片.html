@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>产品卡片</title>
+    <style>
+         * {
+            margin: 0;
+            padding: 0;
+            block-size: border-b0x;
+        }
+
+        body {
+            background-color: #f1f1f1;
+        }
+
+        .product{
+            /* 先写盒子模型的 */
+            margin: 50px auto;
+            padding-top: 20px;
+           
+            width: 200px;
+            height: 200px;
+            background-color: #fff;
+
+            /* 再写字体的 */
+            text-align: center;
+            
+            /* 再写阴影圆角的 */
+            border-radius: 5px;
+           
+
+        }
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+        }
+        .product h4 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 18px;
+            color: #333;
+            font-weight: 400;
+        }
+
+        .product p {
+      
+            font-size: 12px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="product">
+        <img src="../imgSource/cat.png" alt="">
+        <h4> 抖音直播sdk</h4>
+        <p>包含抖音直播功能</p>
+    </div>
+</body>
+</html>

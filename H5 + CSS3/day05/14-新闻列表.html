@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新闻列表</title>
+    <style>
+     * {
+        margin: 0; 
+        padding: 0;
+        box-sizing: border-box;
+     }
+
+     li {
+        list-style: none;
+        /* text-align: center; */
+        /* height: 34px; */
+ 
+     }
+
+     a {
+        text-decoration: none;
+     }
+     .news {
+        margin: 100px auto;
+        width: 360px;
+        height: 200px;
+        background-color: pink;
+     }
+     .news .hd {
+        height: 34px;
+        background-color: #eee;
+        border: 1px solid #dbdee1;
+        border-left: 0;
+     }
+
+     .news .hd a {
+        display: block;
+        border-top: 3px  solid #ff8400;
+        border-right: 1px solid #dbdee1 ;
+        margin-top: -1px;
+        width: 48px;
+        height: 34px;
+        background-color: #fff;
+
+        line-height: 34px;
+        text-align: center;
+        font-size: 14px;
+        color: #333;
+
+     }
+     
+     .news .bd {
+        margin: 5px;
+     }
+     /* .news .bd .bdImg {
+        display: inline-block;
+        width: 4px;
+        height: 4px;
+        /* position: 0 center; */
+        /* vertical-align: middle; */
+     /* } */ */
+    .news .bd li {
+        padding-left: 15px;
+        background-image: url(../imgSource/cat_small.png);
+        background-repeat: no-repeat;
+        background-position: 0 center;
+        background-color: #333;
+    }
+    /* .news .bd li a {
+        padding-left: 15px;
+        background-image: url(../imgSource/cat_small.png);
+        background-repeat: no-repeat;
+        background-position: 0 center;
+    } */
+
+     .news .bd li a:hover {
+       color: #ff8400;
+    }
+    </style>
+</head>
+<body>
+    <div class="news">
+        <div class="hd"> <a href="#" >新闻</a> </div>
+        <div class="bd">
+            <ul>
+                <li> <a href="#">点赞新人 温暖社会</a></li>
+                <li><a href="#">点赞新人 温暖社会1</a></li>
+                <li><a href="#">点赞新人 温暖社会2</a></li>
+                <li><a href="#">点赞新人 温暖社会3</a></li>
+                <li><a href="#">点赞新人 温暖社会3</a></li>
+                <li><a href="#">点赞新人 温暖社会5</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

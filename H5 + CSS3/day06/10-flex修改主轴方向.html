@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex修改主轴方向</title>
+    <style>
+        /* 弹性容器 */
+        .box {
+            display: flex;
+            /* 修改主轴的方向 */
+            flex-direction: column;
+            /* 主轴在垂直方向 则居中是垂直居中 */
+            justify-content: center;
+            /* 此时通过align-items更改侧轴方向 水平 */
+            align-items: center;
+            width: 150px;
+            height: 120px;
+            background-color: pink;
+        }
+
+       
+        img {
+            width: 32px;
+            height: 32px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <img src="../imgSource/cat_small.png" alt="">
+        <span> 媒体</span>
+    </div>
+</body>
+
+</html>
