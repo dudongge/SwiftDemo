@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>按钮缩放</title>
+    <style>
+        img {
+            width: 100%;
+        }
+
+        .box {
+            width: 249px;
+            height: 210px;
+            margin: 50px auto;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .box p {
+            color: #3b3b3b;
+            padding:  10px 10px 0 10px;
+        }
+
+        /* 1 摆放播放按钮 图片区域中间
+        2 hover效果 大按钮 看不见 透明度0 小按钮 看得见 透明度1 */
+        .pic {
+            overflow: hidden;
+            position: relative;
+        }
+
+        .pic::after {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -29px;
+            margin-top: -29px;
+            content: "";
+            width: 58px;
+            height: 58px;
+            background-image: url(./images/play.png);
+            transform: scale(4);
+            opacity: 0;
+            transition: all .5s;
+        }
+
+        .box li:hover .pic::after {
+            transform: scale(1);
+            opacity: 1;
+        }
+
+        /* .box li:hover .pic::after {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+      } */
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <ul>
+            <li>
+                <div class="pic">
+                    <img src="./images/party.jpeg" alt="">
+                </div>
+                <p>和阿斯顿发顺丰几千万飞机青蛙过期哇嘎嘎我。。。</p>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

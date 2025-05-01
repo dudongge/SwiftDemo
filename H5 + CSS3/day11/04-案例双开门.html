@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>双开门</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            /* box-sizing: border-box; */
+        }
+        /* 布局父子结构，父亲是底图，子级是左右小图 */
+        .father {
+            display: flex;
+            margin: 0 auto;
+            width: 1366px;
+            height: 600px;
+            background-image: url(./images/bg.jpg);
+            overflow: hidden;
+        }
+
+        .father .left,
+        .father .right {
+            width: 50%;
+            height: 600px;
+            background-image: url(./images/fm.jpg);
+        }
+        .father .right {
+            /* right是取到精灵图右侧的图片 */
+           background-position: right 0;
+        }
+        /* 鼠标悬停效果 左右移动 */
+
+        .father:hover .left {
+            transform: translate(-100%);
+            transition: all 1.0s;
+        }
+
+        .father:hover .right {
+            transform: translateX(100%);
+            transition: all 1.0s;
+        }
+    </style>
+</head>
+<body>
+    <div class="father">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+</body>
+</html>

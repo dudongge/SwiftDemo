@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>缩放效果</title>
+    <style>
+        .box {
+            width: 300px;
+            height: 210px;
+            margin: 100px auto;
+            background: #000;
+            overflow: hidden;
+        }
+
+        .box img {
+            width: 100%;
+            transition: all 0.5s;
+        }
+
+        .box:hover img {
+            /* 修改高度尺寸 从左上角开始缩放 */
+            /* width: 500px; */
+            /* height: 400px; */
+
+            /* 大于1方大 */
+            transform: scale(2);
+            /* 小于1缩小 */
+            /* transform: scale(0.5);
+            transform: scale(-0.5); */
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="./images/product.jpeg" alt="">
+    </div>
+</body>
+</html>
