@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>动画体验</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            animation: change 1s infinite alternate;
+        }
+
+        /* 宽度从200变化到800 */
+        @keyframes change {
+            from {
+                width: 200px;
+            }
+
+            to {
+                width: 800px;
+                height: 400px;
+            }
+        }
+
+        /* 百分比 表示的意思是动画时长的百分比 */
+        /* @keyframes change {
+            0% {
+                transform: translate(0);
+            }
+
+            100% {
+                transform: translate(600px);
+            }
+        } */
+
+         /* 暂停动画 */
+        .box:hover {
+            animation-play-state: paused;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
